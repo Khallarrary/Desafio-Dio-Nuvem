@@ -1,0 +1,73 @@
+# Compilacao e publicacao .NET
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+[Pp]ublish/
+[Pp]ublishOutput/
+*.nupkg
+*.snupkg
+
+# Visual Studio, Rider e preferencias pessoais
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.sln.iml
+
+# Credenciais e perfis de publicacao do Azure
+**/PublishProfiles/
+*.pubxml
+*.pubxml.user
+*.publishsettings
+*.PublishSettings
+
+# Segredos locais (manter exemplos sem credenciais no Git)
+secrets.json
+appsettings.Local.json
+appsettings.*.Local.json
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pfx
+*.p12
+*.key
+
+# Testes e cobertura
+[Tt]est[Rr]esults/
+coverage/
+coverage-report/
+*.coverage
+*.coveragexml
+
+# Logs e arquivos temporarios
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+~$*
+
+# Dados locais do SQL Server e SQLite
+*.mdf
+*.ldf
+*.ndf
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Persistencia local do Azurite
+__azurite_db_*.json
+__blobstorage__/
+__queuestorage__/
+__tablestorage__/
+
+# Arquivos do sistema operacional
+Thumbs.db
+Desktop.ini
+.DS_Store
